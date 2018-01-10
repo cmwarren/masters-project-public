@@ -2,7 +2,7 @@
 
 This repository holds code submitted for my MSc Intelligent Systems dissertation.
 
-### Title ###
+### Project title ###
 
 "An Unsupervised Approach for Enrichment of Cross-Lingual Word Embeddings"
 
