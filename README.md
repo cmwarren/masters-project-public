@@ -7,16 +7,20 @@ The project takes the following paper as its baseline:
 
 Levy, O., Søgaard, A., & Goldberg, Y. (2017). A Strong Baseline for Learning Cross-Lingual Word Embeddings from Sentence Alignments. In EACL.
 
-### Code & Data Dependencies ###
+### Data Dependencies ###
 Levy et al's code is available from:
 
 https://bitbucket.org/omerlevy/xling_embeddings/
 
-Their README instructions explain how to download the required datasets.
+Their README instructions explain how to download the required Bible and Europarl training corpora.
+
+### Code Dependencies ###
+
+In general, where there are dependencies on Levy et al's code, the necessary files have been duplicated into this repository.
 
 The following source directories are duplicated unaltered from Levy et al:
 
-* /xling_embeddings/word2vecf/
+* /xling_embeddings/eval_data/
 
 * /xling_embeddings/hyperwords/
 
