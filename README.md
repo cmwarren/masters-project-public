@@ -7,6 +7,8 @@ The project takes the following paper as its baseline:
 
 Levy, O., Søgaard, A., & Goldberg, Y. (2017). A Strong Baseline for Learning Cross-Lingual Word Embeddings from Sentence Alignments. In EACL.
 
+The project aims to extract new monolingual corpora from Wikipedia and Twitter, and extend the Levy et al's Multilingual SID-SGNS model to enrich the cross-lingual embeddings with additional vocabulary.
+
 ### Data Dependencies ###
 Levy et al's code is available from:
 
@@ -46,9 +48,42 @@ Levy et al's execution shell scripts have been adapted into iPython notebooks:
 
 
 
-### How to train the embeddings ###
+### How to train the baseline embeddings ###
 
+* Run /xling_embeddings/create_baseline_embeddings.ipynb
 
-### How to evaluate the embeddings ###
+### How to evaluate the baseline embeddings ###
 
+* Run /xling_embeddings/evaluate_baseline.ipynb
 
+### How to extract the monolingual corpora ###
+
+* Run /extract_scripts/twitter/twitter_extract.py
+
+* Run /extract_scripts/wikipedia/wikipedia_extract.py
+
+Optionally, rank the sentences in the Wikipedia corpus based on a TF-IDF scoring. This requires a MongoDB enviroment.
+
+On the command line, run Python programs:
+
+* Run /extract_scripts/load_eval_sets.py
+
+* Run /extract_scripts/load_sentences.py
+
+In the mongo console:
+
+* Run /extract_scripts/create_indexes.js
+
+* Run /extract_scripts/doc_freq.js
+
+* Run /extract_scripts/term_freq.js
+
+* Run /extract_scripts/inverse_doc_freq.js
+
+* Run /extract_scripts/words_per_sentence.js
+
+* Run /extract_scripts/tf-idf_scoring.js
+
+Back on the command line:
+
+* Run /extract_scripts/unload_ranked_sentences.py
