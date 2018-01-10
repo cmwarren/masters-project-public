@@ -1,6 +1,8 @@
 ### What is this repository for? ###
 
-This repository holds code submitted for my MSc Intelligent Systems dissertation.
+This repository holds code submitted for my MSc Intelligent Systems dissertation:
+
+**An Unsupervised Approach for Enrichment of Cross-Lingual Word Embeddings**
 
 ### Overview ###
 The project takes the following paper as its baseline:
@@ -96,7 +98,7 @@ Back on the command line:
 
 * Run /xling_embeddings/evaluate_oov.ipynb
 
-### Additional Dataset Analysis Scripts ###
+### Additional dataset analysis scripts ###
 
 * /xling_embeddings/training_and_eval_set_analysis.ipynb
 
