@@ -23,7 +23,7 @@ The following source directories are duplicated unaltered from Levy et al:
 * /xling_embeddings/word2vecf/
 
 
-The following source files have been slightly modified from Levy et al:
+The following evaluation code has been slightly modified from Levy et al:
 
 * /xling_embeddings/alignment_eval.py
 
