@@ -6,3 +6,4 @@ This README would normally document whatever steps are necessary to get your app
 
 This repository holds code submitted for my MSc Intelligent Systems dissertation.
 
+Levy, O., Søgaard, A., & Goldberg, Y. (2017). A Strong Baseline for Learning Cross-Lingual Word Embeddings from Sentence Alignments. In EACL.
