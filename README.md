@@ -2,7 +2,9 @@
 
 This repository holds code submitted for my MSc Intelligent Systems dissertation:
 
-**An Unsupervised Approach for Enrichment of Cross-Lingual Word Embeddings**
+### Title ###
+
+"An Unsupervised Approach for Enrichment of Cross-Lingual Word Embeddings"
 
 ### Overview ###
 The project takes the following paper as its baseline:
