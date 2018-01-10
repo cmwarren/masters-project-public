@@ -13,3 +13,11 @@ Levy et al's code is available from:
 https://bitbucket.org/omerlevy/xling_embeddings/
 
 Their README instructions explain how to download the required datasets.
+
+The following source directories are duplicated unaltered from Levy et al:
+
+/xling_embeddings/word2vecf/
+
+/xling_embeddings/hyperwords/
+
+/xling_embeddings/word2vecf/
