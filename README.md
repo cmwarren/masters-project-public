@@ -106,3 +106,4 @@ Back on the command line:
 
 * /xling_embeddings/generate_gephi_input_files.ipynb
 
+* /extract_scripts/plot_ranked_sentence_word_counts.ipynb
