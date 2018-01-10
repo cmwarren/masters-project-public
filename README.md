@@ -1,6 +1,6 @@
 ### What is this repository for? ###
 
-This repository holds code submitted for my MSc Intelligent Systems dissertation:
+This repository holds code submitted for my MSc Intelligent Systems dissertation.
 
 ### Title ###
 
