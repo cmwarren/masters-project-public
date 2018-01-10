@@ -16,15 +16,15 @@ Their README instructions explain how to download the required datasets.
 
 The following source directories are duplicated unaltered from Levy et al:
 
-/xling_embeddings/word2vecf/
+* /xling_embeddings/word2vecf/
 
-/xling_embeddings/hyperwords/
+* /xling_embeddings/hyperwords/
 
-/xling_embeddings/word2vecf/
+* /xling_embeddings/word2vecf/
 
 
 The following source files have been slightly modified from Levy et al:
 
-/xling_embeddings/alignment_eval.py
+* /xling_embeddings/alignment_eval.py
 
-/xling_embeddings/wiktionary_eval.py
+* /xling_embeddings/wiktionary_eval.py
