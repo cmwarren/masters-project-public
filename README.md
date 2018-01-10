@@ -11,4 +11,5 @@ Levy, O., Søgaard, A., & Goldberg, Y. (2017). A Strong Baseline for Learning Cro
 Levy et al's code is available from:
 
 https://bitbucket.org/omerlevy/xling_embeddings/
+
 Their README instructions explain how to download the required datasets.
