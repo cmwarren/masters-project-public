@@ -28,3 +28,23 @@ The following source files have been slightly modified from Levy et al:
 * /xling_embeddings/alignment_eval.py
 
 * /xling_embeddings/wiktionary_eval.py
+
+
+Levy et al's execution shell scripts have been adapted into iPython notebooks:
+
+* /xling_embeddings/create_embeddings_lib.ipynb
+
+* /xling_embeddings/create_baseline_embeddings.ipynb
+
+* /xling_embeddings/evaluation_lib.ipynb
+
+* /xling_embeddings/evaluate_baseline.ipynb
+
+
+
+### How to train the embeddings ###
+
+
+### How to evaluate the embeddings ###
+
+
