@@ -9,14 +9,14 @@ Levy, O., Søgaard, A., & Goldberg, Y. (2017). A Strong Baseline for Learning Cro
 
 The project aims to extract new monolingual corpora from Wikipedia and Twitter, and extend the Levy et al's Multilingual SID-SGNS model to enrich the cross-lingual embeddings with additional vocabulary.
 
-### Data Dependencies ###
+### Data dependencies ###
 Levy et al's code is available from:
 
 https://bitbucket.org/omerlevy/xling_embeddings/
 
 Their README instructions explain how to download the required Bible and Europarl training corpora.
 
-### Code Dependencies ###
+### Code dependencies ###
 
 In general, where there are dependencies on Levy et al's code, the necessary files have been duplicated into this repository.
 
@@ -87,3 +87,22 @@ In the mongo console:
 Back on the command line:
 
 * Run /extract_scripts/unload_ranked_sentences.py
+
+### How to train the enriched embeddings ###
+
+* Run /xling_embeddings/create_enriched_embeddings.ipynb
+
+### How to evaluate the enriched embeddings vs baseline ###
+
+* Run /xling_embeddings/evaluate_oov.ipynb
+
+### Additional Dataset Analysis Scripts ###
+
+* /xling_embeddings/training_and_eval_set_analysis.ipynb
+
+* /xling_embeddings/enriched-qualitative-analysis.ipynb
+
+* /xling_embeddings/enriched-quantitative-analysis.ipynb
+
+* /xling_embeddings/generate_gephi_input_files.ipynb
+
