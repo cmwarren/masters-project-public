@@ -7,7 +7,7 @@ This repository holds code submitted for my MSc Intelligent Systems dissertation
 "An Unsupervised Approach for Enrichment of Cross-Lingual Word Embeddings"
 
 ### Abstract ###
-This study reviews and extends recent work in the eld of Machine Translation on the generation of crosslingual
+This study reviews and extends recent work in the field of Machine Translation on the generation of crosslingual
 embedding models. These are vector representations of word vocabularies in continuous space, in which
 one or more languages are projected into the same space so that semantic relationships between languages may
 be derived.
