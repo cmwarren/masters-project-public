@@ -6,10 +6,30 @@ This repository holds code submitted for my MSc Intelligent Systems dissertation
 
 "An Unsupervised Approach for Enrichment of Cross-Lingual Word Embeddings"
 
+### Abstract ###
+This study reviews and extends recent work in the eld of Machine Translation on the generation of crosslingual
+embedding models. These are vector representations of word vocabularies in continuous space, in which
+one or more languages are projected into the same space so that semantic relationships between languages may
+be derived.
+
+Cross-lingual embedding models are a popular topic for current research. There are many potential areas
+in which they could be applied, either as a cheaply trained model that is 'good enough' to use for machine
+translation tasks in certain scenarios, or as a pre-processing tool to transfer other Natural Language Processing
+(NLP) techniques into additional languages. They have the potential to facilitate the introduction of new NLP
+techniques to low-resource languages.
+
+A novel enrichment technique is proposed, to expand the vocabulary coverage of the Multilingual SID-SGNS
+baseline algorithm proposed by (Levy, Søgaard, and Goldberg 2017). This expanded vocabulary is sourced from
+newly created monolingual corpora, extracted from freely available social media services Wikipedia and Twitter.
+
+The enriched model is evaluated on the bilingual dictionary induction task, which tests the precision of the
+model in deducing individual word translations from the cross-lingual representation space. The gold standard
+for the evaluation are a set of cross-lingual word definitions from the crowd-sourced dictionary Wiktionary.
+
 ### Overview ###
 The project takes the following paper as its baseline:
 
-Levy, O., S�gaard, A., & Goldberg, Y. (2017). A Strong Baseline for Learning Cross-Lingual Word Embeddings from Sentence Alignments. In EACL.
+Levy, O., Søgaard, A., & Goldberg, Y. (2017). A Strong Baseline for Learning Cross-Lingual Word Embeddings from Sentence Alignments. In EACL.
 
 The project aims to extract new monolingual corpora from Wikipedia and Twitter, and extend the Levy et al's Multilingual SID-SGNS model to enrich the cross-lingual embeddings with additional vocabulary.
 
