@@ -26,6 +26,11 @@ The enriched model is evaluated on the bilingual dictionary induction task, whic
 model in deducing individual word translations from the cross-lingual representation space. The gold standard
 for the evaluation are a set of cross-lingual word definitions from the crowd-sourced dictionary Wiktionary.
 
+### Final Report ###
+The complete project report is available in this repository at:
+
+* /dissertation.pdf
+
 ### Overview ###
 The project takes the following paper as its baseline:
 
